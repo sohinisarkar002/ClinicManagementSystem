@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7dbb4dd4a80247e7af42a2481a2a00ac" Name="Diagram1" ZoomLevel="54">
+        <EntityTypeShape EntityType="CMSModel.Appointment" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSModel.Drug" Width="1.5" PointX="7.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSModel.DrugRequest" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSModel.Patient" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSModel.Physician" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSModel.Prescription" Width="1.5" PointX="9.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSModel.Schedule" Width="1.5" PointX="7.5" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CMSModel.User" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="CMSModel.FK__Appointme__Patie__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSModel.FK__Appointme__Physi__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSModel.FK__Schedule__Appoin__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSModel.FK__Prescript__DrugI__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSModel.FK__DrugReque__Physi__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSModel.FK__Patient__UserID__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSModel.FK__Physician__UserI__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="CMSModel.FK__Prescript__Sched__3C69FB99" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
